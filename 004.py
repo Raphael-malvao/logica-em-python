@@ -1,0 +1,10 @@
+## Faça um prgrama que leia o valor de uma variavel e mostre seu tipo primitivo e todas as informações possiveis sobre ela
+n1 = input('Digite a variavel: ')
+print(f'O tipo primitivo do valor {n1} é {type(n1)}')
+print(f'Possui apenas espaços? {n1.isspace()}')
+print(f'É um número?: {n1.isnumeric()}')
+print(f'É alfabetico?: {n1.isalpha()}')
+print(f'É alfanumerico ?: {n1.isalnum()}')
+print(f'Esta em maiuscula?: {n1.isupper()}')
+print(f'Esta em minuscula?: {n1.islower()}')
+print(f'Esta capitalizada?: {n1.istitle()}')
