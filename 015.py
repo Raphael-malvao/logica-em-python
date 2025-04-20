@@ -3,4 +3,4 @@
 km = float(input('Quanto KM você rodou: '))
 dias = int(input('Quantos dias voce ficou com o carro: '))
 preco = (km * 0.15) + (dias * 60)
-print(o val)
+print(f'o valor que deve ser pago é R$ {preco}')
