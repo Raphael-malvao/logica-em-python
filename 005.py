@@ -1,5 +1,4 @@
 #Faça um programa que leia um número inteiro e mostre o seu sucessor e seu antecessor
-from math import floor
 
 n1 = int(input('Digite um valor: '))
 menos = n1 - 1

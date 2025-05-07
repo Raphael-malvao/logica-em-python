@@ -2,6 +2,7 @@
 # Calcule e mostre o comprimento da hipotenusa.
 
 from math import hypot
+
 catetoOposto = float(input('Digite o cateto oposto: '))
 catetoAdjacente = float(input('Digite o comprimeto do cateto Adjacente: '))
 hipotnusa = hypot(catetoOposto, catetoAdjacente)
