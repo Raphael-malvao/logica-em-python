@@ -13,8 +13,8 @@ anoNascimento = int(input('Ano de nascimento: '))
 
 idade = anoAtual - anoNascimento
 if idade < 18:
-    print(f'Você ainda tem {idade} anos, faltam {18 - idade} anos para você servir')
+    print(f'Você ainda tem {idade} anos de idade, faltam {18 - idade} anos para você servir')
 elif idade == 18:
-    print(f'Você JA TEM {idade} anos, esta no ano exato de voce servir')
+    print(f'Você JA TEM {idade} anos de idade, esta no ano exato de voce servir')
 else:
-    print(f'Já passou {idade - 18} anos de voce se alistar')
+    print(f'Já passou {idade - 18} anos do seu alistar')
