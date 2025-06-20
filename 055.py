@@ -15,5 +15,5 @@ for c in range(4):
     if peso < menor:
         menor = peso
 
-print(menor)
-print(maior)
+print(f'o menor peso foi {menor}')
+print(f'O maior peso foi {maior}')

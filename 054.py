@@ -3,7 +3,6 @@
  mostre quantas pessoas ainda não atingiram a maioridade e quantas já são maiores.
 '''
 import datetime
-import time
 
 maiores = 0
 menores = 0

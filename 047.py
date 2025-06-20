@@ -6,4 +6,4 @@ par = c % 2
 for c in range (1, 51, 1):
     par = c % 2
     if par == False:
-        print(c)
+        print(c, end=' -> ')
